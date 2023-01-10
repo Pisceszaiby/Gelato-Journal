@@ -1,0 +1,20 @@
+<%- include("partials/header")-%>
+
+    <h1>Home</h1>
+
+    <p>
+        <%= para %>
+    </p>
+
+    <% postsArray.forEach(function(post){%>
+
+        <h1 class="postLabel">
+            <%=post.title%>
+        </h1>
+
+        <p>
+            <%=post.body.substring(0,100)+"..."%><a href="/posts/<%=post.title%>">Read More</a>
+        </p>
+
+        <%})%>
+            <%- include("partials/footer")-%>

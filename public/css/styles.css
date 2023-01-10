@@ -1,0 +1,60 @@
+body {
+    text-align: justify;
+
+}
+
+.container-fluid {
+    padding-top: 70px;
+    padding-bottom: 70px;
+
+}
+
+.navbar {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 12px;
+    letter-spacing: 5px;
+}
+
+.navbar-nav li a:hover {
+    color: #b62048 !important;
+}
+
+.footer-padding {
+    padding-bottom: 40px;
+}
+
+.postLabel {
+    color: #b62048;
+}
+
+.links1 {
+    color: #ffffff;
+    background-color: #b62048;
+    font: 22px;
+}
+
+.links1:hover {
+    color: #b62048;
+    background-color: #ffffff;
+
+    font: 16px;
+}
+
+.footer {
+    position: fixed;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+    background-color: #b62048;
+}
+
+.footer p {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #fff;
+}
